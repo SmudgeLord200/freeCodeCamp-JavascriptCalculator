@@ -70,7 +70,6 @@ function App() {
         setExpression(expression + button);
       }
     }
-    console.log("expression is ", expression)
   };
 
   const calculate = () => {

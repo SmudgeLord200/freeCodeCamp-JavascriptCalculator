@@ -10,7 +10,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  background-color: #01012b;
+  width: 15rem;
 }
 
 #display {
@@ -18,13 +19,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 100%; 
+  padding: 0.2rem;
+  color: #05d9e8;
+  font-weight: bold;
 }
 
 #answer, #expression {
   width: 100%;
   text-align: right;
-  margin-right: 1rem;
+  margin: 0.2rem 0;
+  padding-right: 0.1rem;
+  font-size: 1.2rem;
+}
+
+#answer {
+  height: 1.2rem;
+}
+
+#expression {
+  height: 1.2rem;
 }
 
 #calculator-pad {
@@ -102,4 +116,17 @@
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+  background-color: #005678;
+  color: white;
+  border-radius: 5px;
+}
+
+#calculator-pad button:first-child {
+  background-color: #ff2a6d;
+  font-weight: bold;
+}
+
+#calculator-pad button:nth-child(15) {
+  background-color: #d1f7ff;
+  color: black;
 }
