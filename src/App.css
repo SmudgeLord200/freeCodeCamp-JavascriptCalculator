@@ -13,7 +13,7 @@
   border: 2px solid black;
 }
 
-#output {
+#display {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-#formula, #display {
+#answer, #expression {
   width: 100%;
   text-align: right;
   margin-right: 1rem;
